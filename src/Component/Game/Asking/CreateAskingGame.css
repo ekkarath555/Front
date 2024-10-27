@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+.Box {
+    padding: 20px; /* เพิ่มพื้นที่ภายในกล่อง */    
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../Pics/Education.jpg'); 
+    background-size: cover; /* ปรับขนาดให้พอดีกับพื้นที่ */
+    background-position: center; 
+    filter: blur(8px); 
+    z-index: -1; /* จัดให้อยู่ด้านหลัง */
+}
+
+.content {
+    position: relative; 
+    z-index: 1; /* จัดให้ขยับมาอยู่ด้านหน้า */
+}
+
+
+/* เรียงปุ่มในแนวนอน */
+.button-group1 {
+    display: flex;
+    gap: 30px; /* ระยะห่างระหว่างปุ่ม */
+
+}
+
+.button-group2 {
+    display: flex;
+    gap: 30px; /* ระยะห่างระหว่างปุ่ม */
+    margin-top: 170px; /* ระยะห่างจากส่วนบน */
+}
+
+
+.question-box {
+    border: 10px solid #e7e7e7; /* ความหนาขอบนอก */
+    border-radius: 20px; /* ขอบมน */
+    padding: 35px; /* พื้นที่ภายใน */
+    margin: 50px 0; /* พื้นที่ด้านบนและล่าง */
+    background-color: #ffffff; 
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.6); 
+}
+
